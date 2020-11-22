@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: echoscript
-        image: debian:latest
+        image: fedora:32
        # command: 
        #   - 'sh'
        #   - '-c'

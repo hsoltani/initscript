@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: echoscript
-        image: alpine
+        image: debian:latest
        # command: 
        #   - 'sh'
        #   - '-c'

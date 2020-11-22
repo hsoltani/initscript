@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: echoscript
-        image: fedora:32
+        image: busybox:latest
        # command: 
        #   - 'sh'
        #   - '-c'

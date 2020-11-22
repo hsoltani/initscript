@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: echoscript
-        image: busybox:latest
+        image: busybox
        # command: 
        #   - 'sh'
        #   - '-c'

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: echoscript
-        image: alpine/helm
+        image: alpine
        # command: 
        #   - 'sh'
        #   - '-c'

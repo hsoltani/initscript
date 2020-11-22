@@ -3,21 +3,7 @@
 # creates genesis block and certificates
 # and copies them to hlf-kube/ folder
 
-if [ "$#" -lt 2 ]; then
-   echo "usage: init.sh <project_folder> <chaincode_folder> [create_genesis_block]"
-   exit 2
-fi
 
-# exit when any command fails
-set -e
-
-project_folder=$1
-chaincode_folder=$2
-create_genesis_block=${3:-true}
-
-current_folder=$(pwd)
-
-cd $project_folder
 config_file=./network.yaml
 
 rm -rf crypto-config

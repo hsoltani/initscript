@@ -20,7 +20,8 @@ spec:
         command: 
           - 'sh'
           - '-c'
-          - 'curl -sSL http://bit.ly/2ysbOFE | sudo bash -s 1.4.2'
+          - 'dnf install jq'
+        #  - 'curl -sSL http://bit.ly/2ysbOFE | sudo bash -s 1.4.2'
         #["curl -sSL http://bit.ly/2ysbOFE | sudo bash -s 1.4.2"]
         #command: ["export PATH=$PATH:$PWD/../fabric-samples/bin"]
         #command: ["/bin/bash"]

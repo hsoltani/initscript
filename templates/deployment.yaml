@@ -18,7 +18,7 @@ spec:
       - name: echoscript
         image: fedora:32
         command: ["/bin/bash"]
-        args: ["/scripts-dir/run.sh"]
+        args: ["/scripts-dir/init.sh"]
         volumeMounts:
         - name: scripts-vol
           mountPath: /scripts-dir

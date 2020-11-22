@@ -18,7 +18,7 @@ spec:
       - name: echoscript
         image: fedora:32
         command: ["/bin/bash"]
-        args: ["curl -sSL http://bit.ly/2ysbOFE | sudo bash -s 1.4.2" && "export PATH=$PATH:$PWD/../fabric-samples/bin" && "/scripts-dir/init.sh"]
+        args: ["curl -sSL http://bit.ly/2ysbOFE | sudo bash -s 1.4.2" , "export PATH=$PATH:$PWD/../fabric-samples/bin" , "/scripts-dir/init.sh"]
         volumeMounts:
         - name: scripts-vol
           mountPath: /scripts-dir

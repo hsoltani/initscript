@@ -5,6 +5,7 @@
 dnf install jq
 dnf -y install python-pip
 pip install yq
+curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/v1.4.2/scripts/bootstrap.sh | bash
 
 config_file=./network.yaml
 

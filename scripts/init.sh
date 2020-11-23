@@ -3,6 +3,8 @@
 # creates genesis block and certificates
 # and copies them to hlf-kube/ folder
 dnf install jq
+dnf -y install python-pip
+pip install yq
 
 config_file=./network.yaml
 

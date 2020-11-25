@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: echoscript
-        image: hyperledger/fabric-tools:1.4.5
+        image: repo1.khallagh.com/hyperledger/fabric-tools:1.4.5
        # command: 
        #   - 'sh'
        #   - '-c'

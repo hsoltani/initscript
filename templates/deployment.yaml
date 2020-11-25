@@ -16,11 +16,11 @@ spec:
     spec:
       containers:
       - name: echoscript
-        image: fedora:32
+        image: hyperledger/fabric-tools:1.4.1
        # command: 
        #   - 'sh'
        #   - '-c'
-       #   - 'dnf install jq'
+       #   - 'dnf install jq' hyperledger/fabric-tools:1.4.1 fedora:32
         #  - 'curl -sSL http://bit.ly/2ysbOFE | sudo bash -s 1.4.2'
         #["curl -sSL http://bit.ly/2ysbOFE | sudo bash -s 1.4.2"]
         #command: ["export PATH=$PATH:$PWD/../fabric-samples/bin"]

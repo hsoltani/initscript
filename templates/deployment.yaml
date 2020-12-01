@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: echoscript
-        image: repo1.khallagh.com/busybox:1.28
+        image: busybox:1.32.0
        # command: 
        #   - 'sh'
        #   - '-c'

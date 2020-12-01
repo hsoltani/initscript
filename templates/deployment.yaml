@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: echoscript
-        image: repo1.khallagh.com/hyperledger/fabric-tools:1.4.5
+        image: repo1.khallagh.com/busybox:1.28
        # command: 
        #   - 'sh'
        #   - '-c'

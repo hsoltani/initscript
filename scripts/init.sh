@@ -5,6 +5,14 @@
 # if version not passed in, default to latest released version
 # if version not passed in, default to latest released version
 dnf -y install git
+dnf -y install dnf-plugins-core
+
+dnf config-manager \
+    --add-repo \
+    https://download.docker.com/linux/fedora/docker-ce.repo
+
+dnf install docker-ce docker-ce-cli containerd.io
+
 VERSION=1.4.0
 # if ca version not passed in, default to latest released version
 CA_VERSION=1.4.9

@@ -4,6 +4,7 @@
 # and copies them to hlf-kube/ folder
 # if version not passed in, default to latest released version
 # if version not passed in, default to latest released version
+dnf -y install git
 VERSION=1.4.0
 # if ca version not passed in, default to latest released version
 CA_VERSION=1.4.9
